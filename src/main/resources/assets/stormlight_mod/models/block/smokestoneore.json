@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stormlight_mod:block/smokestoneore",
+    "up": "stormlight_mod:block/smokestoneore",
+    "north": "stormlight_mod:block/smokestoneore",
+    "east": "stormlight_mod:block/smokestoneore",
+    "south": "stormlight_mod:block/smokestoneore",
+    "west": "stormlight_mod:block/smokestoneore",
+    "particle": "stormlight_mod:block/smokestoneore"
+  },
+  "render_type": "solid"
+}

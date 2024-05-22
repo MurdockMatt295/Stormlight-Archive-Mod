@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "stormlight_mod:topaz_ore",
+    "stormlight_mod:zircon_ore",
+    "stormlight_mod:garnet_ore",
+    "stormlight_mod:ruby_gemore",
+    "stormlight_mod:heliodorore",
+    "stormlight_mod:smokestoneore",
+    "stormlight_mod:amethystore",
+    "stormlight_mod:sapphire_ore",
+    "stormlight_mod:shadesmar_obsidian"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_i_will_remeber",
+          "text": {
+            "fixedValue": "I will Remeber"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 178,
+          "y": 74
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_say_the_words",
+          "text": "SAY THE WORDS",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CultivationSprenspawning"
+          },
+          "width": 130,
+          "height": 20,
+          "x": 148,
+          "y": 90
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_x",
+          "text": "x",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CloseGUI"
+          },
+          "width": 10,
+          "height": 20,
+          "x": 130,
+          "y": 41
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

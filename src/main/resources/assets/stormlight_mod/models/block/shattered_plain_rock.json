@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stormlight_mod:block/shatteredplainsrock2",
+    "up": "stormlight_mod:block/shatteredplainsrock2",
+    "north": "stormlight_mod:block/shatteredplainsrock2",
+    "east": "stormlight_mod:block/shatteredplainsrock2",
+    "south": "stormlight_mod:block/shatteredplainsrock2",
+    "west": "stormlight_mod:block/shatteredplainsrock2",
+    "particle": "stormlight_mod:block/shatteredplainsrock2"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "stormlight_mod:small_garnet_gem"
+    }
+  },
+  "result": {
+    "item": "stormlight_mod:infused_garnet_chip",
+    "count": 10
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "title": {
+      "translate": "advancements.unlucky_curse.title"
+    },
+    "description": {
+      "translate": "advancements.unlucky_curse.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "unlucky_curse_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "stormlight_mod:night_watcher_curse"
+}

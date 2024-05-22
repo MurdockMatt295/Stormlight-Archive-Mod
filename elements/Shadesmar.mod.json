@@ -1,0 +1,102 @@
+{
+  "_fv": 60,
+  "_type": "biome",
+  "definition": {
+    "name": "Shadesmar",
+    "groundBlock": {
+      "value": "CUSTOM:ShadesmarObsidian"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:ShadesmarObsidian"
+    },
+    "grassColor": {
+      "value": -16382457,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16382457,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16382457,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16382457,
+      "falpha": 0.0
+    },
+    "moodSoundDelay": 0,
+    "spawnParticles": false,
+    "particlesProbability": 0.0,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -2.0,
+      "max": 2.0
+    },
+    "genHumidity": {
+      "min": -2.0,
+      "max": 2.0
+    },
+    "genContinentalness": {
+      "min": -2.0,
+      "max": 2.0
+    },
+    "genErosion": {
+      "min": -2.0,
+      "max": 2.0
+    },
+    "genWeirdness": {
+      "min": -2.0,
+      "max": 2.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 6,
+    "treeStem": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "treeBranch": {
+      "value": "Blocks.STAINED_GLASS#6"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores",
+      "Lakes",
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}

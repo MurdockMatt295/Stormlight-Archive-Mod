@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "stormlight_mod:shardbearer",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

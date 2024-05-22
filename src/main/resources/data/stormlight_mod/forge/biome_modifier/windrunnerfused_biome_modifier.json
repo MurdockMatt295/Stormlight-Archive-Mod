@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stormlight_mod:shattered_plains",
+  "spawners": {
+    "type": "stormlight_mod:windrunnerfused",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

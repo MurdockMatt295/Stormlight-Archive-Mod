@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "stormlight_mod:sapphire_ore",
+  "step": "underground_ores"
+}

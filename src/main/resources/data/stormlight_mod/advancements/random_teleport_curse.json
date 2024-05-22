@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "random_teleport_curse_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "stormlight_mod:night_watcher_curse"
+}

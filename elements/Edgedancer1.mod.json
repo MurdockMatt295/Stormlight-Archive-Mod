@@ -1,0 +1,20 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Edgedancer 1",
+    "icon": "edgedancer_glyph_pixelized.png",
+    "color": {
+      "value": -16751104,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "EdgedancerPotionEffect"
+    }
+  }
+}

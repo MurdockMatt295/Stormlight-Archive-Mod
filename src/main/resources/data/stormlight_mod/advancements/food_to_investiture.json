@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "title": {
+      "translate": "advancements.food_to_investiture.title"
+    },
+    "description": {
+      "translate": "advancements.food_to_investiture.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "food_to_investiture_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "stormlight_mod:night_watcher_boon"
+}

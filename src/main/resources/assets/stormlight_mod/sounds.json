@@ -1,0 +1,19 @@
+{
+  "tvstaticsound": {
+    "sounds": [
+      {
+        "name": "stormlight_mod:ytmp3free.cc_free-tv-static-noise-hd-with-audio-youtubemp3free.org",
+        "stream": false
+      }
+    ]
+  },
+  "portalmusic": {
+    "subtitle": "subtitles.portalmusic",
+    "sounds": [
+      {
+        "name": "stormlight_mod:ytmp3free",
+        "stream": false
+      }
+    ]
+  }
+}

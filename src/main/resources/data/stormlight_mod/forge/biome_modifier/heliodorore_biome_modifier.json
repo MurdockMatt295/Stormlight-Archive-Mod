@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "stormlight_mod:heliodorore",
+  "step": "underground_ores"
+}

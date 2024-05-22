@@ -1,0 +1,9 @@
+{
+  "type": "stormlight_mod:structure_feature",
+  "config": {
+    "structure": "stormlight_mod:oathgate",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

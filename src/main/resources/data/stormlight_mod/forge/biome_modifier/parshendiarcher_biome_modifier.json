@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stormlight_mod:shattered_plains",
+  "spawners": {
+    "type": "stormlight_mod:parshendiarcher",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 10
+  }
+}

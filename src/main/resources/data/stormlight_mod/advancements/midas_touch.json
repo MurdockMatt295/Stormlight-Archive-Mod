@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancements.midas_touch.title"
+    },
+    "description": {
+      "translate": "advancements.midas_touch.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "midas_touch_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "stormlight_mod:night_watcher_curse"
+}

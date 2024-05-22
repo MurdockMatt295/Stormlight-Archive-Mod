@@ -1,0 +1,9 @@
+{
+  "parent": "stormlight_mod:custom/rockbud",
+  "textures": {
+    "all": "stormlight_mod:block/rockbud",
+    "particle": "stormlight_mod:block/rockbud",
+    "0": "stormlight_mod:block/"
+  },
+  "render_type": "cutout"
+}

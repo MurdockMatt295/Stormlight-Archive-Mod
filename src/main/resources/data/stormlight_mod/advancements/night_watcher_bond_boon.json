@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "stormlight_mod:nightwatcher_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.night_watcher_bond_boon.title"
+    },
+    "description": {
+      "translate": "advancements.night_watcher_bond_boon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "night_watcher_bond_boon_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "stormlight_mod:night_watcher_boon"
+}

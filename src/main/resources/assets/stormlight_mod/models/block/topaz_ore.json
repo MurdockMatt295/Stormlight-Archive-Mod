@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stormlight_mod:block/topazore",
+    "up": "stormlight_mod:block/topazore",
+    "north": "stormlight_mod:block/topazore",
+    "east": "stormlight_mod:block/topazore",
+    "south": "stormlight_mod:block/topazore",
+    "west": "stormlight_mod:block/topazore",
+    "particle": "stormlight_mod:block/topazore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stormlight_mod:shattered_plains",
+  "features": "stormlight_mod:rockbud",
+  "step": "vegetal_decoration"
+}

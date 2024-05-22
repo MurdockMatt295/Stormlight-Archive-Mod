@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "stormlight_mod:medium_zircon_gem"
+    }
+  },
+  "result": {
+    "item": "stormlight_mod:dun_zircon_mark",
+    "count": 5
+  }
+}

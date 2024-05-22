@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stormlight_mod:shadesmar",
+  "spawners": {
+    "type": "stormlight_mod:black_oathgate_spren",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

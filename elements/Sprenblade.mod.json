@@ -1,0 +1,35 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "shardblade1",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Sprenblade",
+    "specialInformation": {
+      "fixedValue": [
+        "Your spren as a Shardblade"
+      ]
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 3,
+    "efficiency": 10.5,
+    "attackSpeed": 1.0,
+    "enchantability": 10,
+    "damageVsEntity": 31.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

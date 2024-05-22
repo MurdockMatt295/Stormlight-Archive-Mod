@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "2",
+    "keyBindingName": "Lashing Amount 2",
+    "keyBindingCategoryKey": "misc",
+    "onKeyReleased": {
+      "name": "LashingAmplifier2"
+    }
+  }
+}

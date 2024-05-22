@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stormlight_mod:block/zirconore",
+    "up": "stormlight_mod:block/zirconore",
+    "north": "stormlight_mod:block/zirconore",
+    "east": "stormlight_mod:block/zirconore",
+    "south": "stormlight_mod:block/zirconore",
+    "west": "stormlight_mod:block/zirconore",
+    "particle": "stormlight_mod:block/zirconore"
+  },
+  "render_type": "solid"
+}

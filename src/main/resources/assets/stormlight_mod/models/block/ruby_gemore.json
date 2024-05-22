@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stormlight_mod:block/rubyore",
+    "up": "stormlight_mod:block/rubyore",
+    "north": "stormlight_mod:block/rubyore",
+    "east": "stormlight_mod:block/rubyore",
+    "south": "stormlight_mod:block/rubyore",
+    "west": "stormlight_mod:block/rubyore",
+    "particle": "stormlight_mod:block/rubyore"
+  },
+  "render_type": "solid"
+}

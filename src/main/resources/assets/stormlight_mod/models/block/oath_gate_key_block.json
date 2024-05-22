@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stormlight_mod:block/oathgatekeyblocktop2",
+    "up": "stormlight_mod:block/oathgatekeyblocktop2",
+    "north": "stormlight_mod:block/oathgatekeyblocktop2",
+    "east": "stormlight_mod:block/oathgatekeyblocktop2",
+    "south": "stormlight_mod:block/oathgatekeyblocktop2",
+    "west": "stormlight_mod:block/oathgatekeyblocktop2",
+    "particle": "stormlight_mod:block/oathgatekeyblocktop2"
+  },
+  "render_type": "solid"
+}

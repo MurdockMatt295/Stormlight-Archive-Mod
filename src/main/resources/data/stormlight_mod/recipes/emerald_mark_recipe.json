@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "stormlight_mod:medium_emerald_gem"
+    }
+  },
+  "result": {
+    "item": "stormlight_mod:dun_emerald_mark",
+    "count": 5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 178,
+    "height": 137,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_do_you_wish_for_a_boon",
+          "text": {
+            "fixedValue": "What Do You Wish For?"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 158,
+          "y": 58
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_i_wish_for_a_boon",
+          "text": "I Wish For A Boon",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NightWatcherBoonandCurse"
+          },
+          "width": 113,
+          "height": 20,
+          "x": 156,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_i_wish_for_nothing",
+          "text": "I Wish For Nothing",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CloseNightWatcherGUI"
+          },
+          "width": 118,
+          "height": 20,
+          "x": 153,
+          "y": 119
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

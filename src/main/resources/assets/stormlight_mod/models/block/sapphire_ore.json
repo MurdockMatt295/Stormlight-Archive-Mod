@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stormlight_mod:block/oretemplate",
+    "up": "stormlight_mod:block/sapphiretextureimproved",
+    "north": "stormlight_mod:block/oretemplate",
+    "east": "stormlight_mod:block/oretemplate",
+    "south": "stormlight_mod:block/oretemplate",
+    "west": "stormlight_mod:block/oretemplate",
+    "particle": "stormlight_mod:block/oretemplate"
+  },
+  "render_type": "solid"
+}

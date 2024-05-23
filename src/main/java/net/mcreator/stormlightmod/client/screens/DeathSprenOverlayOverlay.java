@@ -21,7 +21,7 @@ import com.mojang.blaze3d.platform.GlStateManager;
 
 @Mod.EventBusSubscriber({Dist.CLIENT})
 public class DeathSprenOverlayOverlay {
-	@SubscribeEvent(priority = EventPriority.NORMAL)
+	@SubscribeEvent(priority = EventPriority.LOWEST)
 	public static void eventHandler(ScreenEvent.Render.Post event) {
 		if (event.getScreen() instanceof DeathScreen) {
 			int w = event.getScreen().width;

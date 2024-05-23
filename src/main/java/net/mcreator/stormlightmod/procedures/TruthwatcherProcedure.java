@@ -35,6 +35,13 @@ public class TruthwatcherProcedure {
 				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.lightning_bolt.thunder")), SoundSource.NEUTRAL, 1, 1, false);
 			}
 		}
+		if (world instanceof Level _level) {
+			if (!_level.isClientSide()) {
+				_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("stormlight_mod:acceptedwords")), SoundSource.NEUTRAL, 1, 1);
+			} else {
+				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("stormlight_mod:acceptedwords")), SoundSource.NEUTRAL, 1, 1, false);
+			}
+		}
 		if (world instanceof ServerLevel _level)
 			_level.sendParticles(ParticleTypes.DRAGON_BREATH, x, y, z, 5, 3, 3, 3, 1);
 		if (entity instanceof ServerPlayer _player) {

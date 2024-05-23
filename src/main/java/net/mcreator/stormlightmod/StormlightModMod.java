@@ -28,6 +28,7 @@ import net.mcreator.stormlightmod.init.StormlightModModFluids;
 import net.mcreator.stormlightmod.init.StormlightModModFluidTypes;
 import net.mcreator.stormlightmod.init.StormlightModModEntities;
 import net.mcreator.stormlightmod.init.StormlightModModBlocks;
+import net.mcreator.stormlightmod.init.StormlightModModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,7 +51,7 @@ public class StormlightModMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		StormlightModModSounds.REGISTRY.register(bus);
 		StormlightModModBlocks.REGISTRY.register(bus);
-
+		StormlightModModBlockEntities.REGISTRY.register(bus);
 		StormlightModModItems.REGISTRY.register(bus);
 		StormlightModModEntities.REGISTRY.register(bus);
 

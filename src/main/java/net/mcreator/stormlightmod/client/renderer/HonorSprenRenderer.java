@@ -10,10 +10,17 @@ import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.stormlightmod.entity.HonorSprenEntity;
 
+import com.mojang.blaze3d.vertex.PoseStack;
+
 public class HonorSprenRenderer extends HumanoidMobRenderer<HonorSprenEntity, HumanoidModel<HonorSprenEntity>> {
 	public HonorSprenRenderer(EntityRendererProvider.Context context) {
 		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
 		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+	}
+
+	@Override
+	protected void scale(HonorSprenEntity entity, PoseStack poseStack, float f) {
+		poseStack.scale(0.1f, 0.1f, 0.1f);
 	}
 
 	@Override

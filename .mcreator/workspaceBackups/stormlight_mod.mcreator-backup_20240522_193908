@@ -5602,10 +5602,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "y",
-            "type": "number"
           }
         ]
       }
@@ -6199,6 +6195,7 @@
       "locked_code": false,
       "registry_name": "black_oathgate_spren_natural_entity_spawning_condition",
       "metadata": {
+        "return_type": "logic",
         "files": [
           "src/main/java/net/mcreator/stormlightmod/procedures/BlackOathgateSprenNaturalEntitySpawningConditionProcedure.java"
         ],
@@ -6230,6 +6227,7 @@
       "locked_code": false,
       "registry_name": "white_oathgate_spren_naturalentity_spawning_condition",
       "metadata": {
+        "return_type": "logic",
         "files": [
           "src/main/java/net/mcreator/stormlightmod/procedures/WhiteOathgateSprenNaturalentitySpawningConditionProcedure.java"
         ],
@@ -7595,22 +7593,6 @@
       }
     },
     {
-      "name": "UrithiruFeature",
-      "type": "feature",
-      "sortid": 499,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "urithiru_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stormlight_mod/worldgen/placed_feature/urithiru_feature.json",
-          "src/main/resources/data/stormlight_mod/forge/biome_modifier/urithiru_feature_biome_modifier.json",
-          "src/main/resources/data/stormlight_mod/worldgen/configured_feature/urithiru_feature.json"
-        ],
-        "has_nbt_structure": true
-      }
-    },
-    {
       "name": "NightwatcherNaturalEntitySpawningCondition",
       "type": "procedure",
       "sortid": 501,
@@ -7623,6 +7605,127 @@
           "src/main/java/net/mcreator/stormlightmod/procedures/NightwatcherNaturalEntitySpawningConditionProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SphereLantern",
+      "type": "block",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphere_lantern",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stormlight_mod/blockstates/sphere_lantern.json",
+          "src/main/resources/assets/stormlight_mod/models/block/sphere_lantern.json",
+          "src/main/java/net/mcreator/stormlightmod/block/SphereLanternBlock.java",
+          "src/main/resources/data/stormlight_mod/loot_tables/blocks/sphere_lantern.json",
+          "src/main/java/net/mcreator/stormlightmod/block/entity/SphereLanternBlockEntity.java",
+          "src/main/resources/assets/stormlight_mod/models/item/sphere_lantern.json"
+        ]
+      }
+    },
+    {
+      "name": "SphereLanternGUI",
+      "type": "gui",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphere_lantern_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stormlightmod/network/SphereLanternGUISlotMessage.java",
+          "src/main/java/net/mcreator/stormlightmod/world/inventory/SphereLanternGUIMenu.java",
+          "src/main/java/net/mcreator/stormlightmod/client/gui/SphereLanternGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "SphereLanternInfused",
+      "type": "block",
+      "sortid": 504,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphere_lantern_infused",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stormlightmod/block/SphereLanternInfusedBlock.java",
+          "src/main/resources/assets/stormlight_mod/blockstates/sphere_lantern_infused.json",
+          "src/main/java/net/mcreator/stormlightmod/block/entity/SphereLanternInfusedBlockEntity.java",
+          "src/main/resources/assets/stormlight_mod/models/block/sphere_lantern_infused.json",
+          "src/main/resources/data/stormlight_mod/loot_tables/blocks/sphere_lantern_infused.json",
+          "src/main/resources/assets/stormlight_mod/models/item/sphere_lantern_infused.json"
+        ]
+      }
+    },
+    {
+      "name": "SphereLanternInput",
+      "type": "procedure",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphere_lantern_input",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stormlightmod/procedures/SphereLanternInputProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SphereLanternOutput",
+      "type": "procedure",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphere_lantern_output",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stormlightmod/procedures/SphereLanternOutputProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -7823,6 +7926,14 @@
       ],
       "category": "neutral",
       "subtitle": "portal music"
+    },
+    {
+      "name": "acceptedwords",
+      "files": [
+        "these-words-are-accepted"
+      ],
+      "category": "master",
+      "subtitle": "When you say the words"
     }
   ],
   "tag_elements": {
@@ -7981,9 +8092,11 @@
       "key.mcreator.lashing_amount_2": "Lashing Amount 2",
       "item.stormlight_mod.elsecallerfused_spawn_egg": "Husked Ones Spawn Egg",
       "key.stormlight_mod.radient_1_power_2": "Secondary Radiant Power",
+      "block.stormlight_mod.sphere_lantern_infused": "Sphere Lantern Infused",
       "advancements.self_iron_golem_spawner.descr": "You Spawn Golems",
       "advancements.no_sleep_curse.descr": "You Can\u0027t sleep",
       "item.stormlight_mod.dun_heliodor_broam": "Dun Heliodor Broam",
+      "block.stormlight_mod.sphere_lantern": "Sphere Lantern",
       "key.stormlight_mod.edgedancer_growthings": "Edgedancer Growthings",
       "advancements.weakness_curse.title": "Weakness Curse",
       "effect.stormlight_mod.dustbringer_1": "Skybreaker 1",
@@ -8008,6 +8121,7 @@
       "item.stormlight_mod.infused_smokestone_chip": "Infused Smokestone Chip",
       "block.stormlight_mod.garnet_ore": "Amethystore",
       "item.stormlight_mod.infused_emerald_broam": "Infused Emerald Broam",
+      "subtitles.acceptedwords": "When you say the words",
       "advancements.windrunner.descr": "I will protect those who cannot protect themselves",
       "item.stormlight_mod.infused_heliodor_mark": "Infused Heliodor Mark",
       "item.stormlight_mod.infused_emerald_mark": "Infused Emerald Mark",
@@ -8089,6 +8203,7 @@
       "effect.stormlight_mod.elsecaller_1": "Elsecaller 1",
       "item.stormlight_mod.dun_topaz_chip": "Dun Topaz Chip",
       "effect.stormlight_mod.willshaper_1": "Skybreaker 1",
+      "gui.stormlight_mod.sphere_lantern_gui.label_place_an_infused_sphere_inside": "Place an infused Sphere inside",
       "item.stormlight_mod.infused_amethyst_mark": "Infused Amethyst Mark",
       "item.stormlight_mod.dun_zircon_chip": "Dun Zircon Chip",
       "item.stormlight_mod.infused_diamond_chip": "Infused Diamond Chip",
@@ -8136,7 +8251,7 @@
       "block.stormlight_mod.sapphire_ore": "Sapphire Ore",
       "advancements.windrunnerlevel_3.title": "Windrunner",
       "item.stormlight_mod.smokestone_gem": "Smokestone Gem",
-      "item.stormlight_mod.sprenblade": "Sprenblade",
+      "item.stormlight_mod.sprenblade": "Living Shardblade",
       "advancements.hero_boon.descr": "You are the Hero the Village needs",
       "advancements.sound_boon.title": "Sound Boon",
       "item.stormlight_mod.parshendiarcher": "Parshendiarcher Spawn Egg",

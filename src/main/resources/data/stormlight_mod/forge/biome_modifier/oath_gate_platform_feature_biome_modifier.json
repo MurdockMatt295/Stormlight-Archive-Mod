@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#is_overworld",
+  "biomes": "#minecraft:is_mountain",
   "features": "stormlight_mod:oath_gate_platform_feature",
   "step": "surface_structures"
 }

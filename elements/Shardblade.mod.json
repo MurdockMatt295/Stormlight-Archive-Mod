@@ -3,10 +3,10 @@
   "_type": "tool",
   "definition": {
     "toolType": "MultiTool",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
-    "texture": "shardblade1",
-    "customModelName": "Normal",
+    "texture": "shardbladescreenshot",
+    "customModelName": "mayablade:default",
     "blockingModelName": "Normal blocking",
     "name": "Shardblade",
     "specialInformation": {
@@ -24,6 +24,9 @@
     "damageVsEntity": 31.0,
     "usageCount": 0,
     "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

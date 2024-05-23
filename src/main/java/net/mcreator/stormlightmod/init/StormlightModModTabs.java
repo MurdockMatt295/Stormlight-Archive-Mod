@@ -35,6 +35,8 @@ public class StormlightModModTabs {
 			tabData.accept(StormlightModModBlocks.ZIRCON_ORE.get().asItem());
 			tabData.accept(StormlightModModBlocks.TOPAZ_ORE.get().asItem());
 			tabData.accept(StormlightModModBlocks.OATH_GATE_KEY_BLOCK.get().asItem());
+			tabData.accept(StormlightModModBlocks.SPHERE_LANTERN.get().asItem());
+			tabData.accept(StormlightModModBlocks.SPHERE_LANTERN_INFUSED.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(StormlightModModItems.SHARDBLADE.get());
 			tabData.accept(StormlightModModItems.SHARDPLATE_HELMET.get());

@@ -7,19 +7,22 @@ import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
@@ -29,6 +32,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.stormlightmod.init.StormlightModModItems;
 import net.mcreator.stormlightmod.init.StormlightModModEntities;
 
 public class BlackOathgateSprenEntity extends PathfinderMob {
@@ -38,12 +42,14 @@ public class BlackOathgateSprenEntity extends PathfinderMob {
 
 	public BlackOathgateSprenEntity(EntityType<BlackOathgateSprenEntity> type, Level world) {
 		super(type, world);
-		setMaxUpStep(0.6f);
+		setMaxUpStep(0f);
 		xpReward = 0;
 		setNoAi(false);
 		setCustomName(Component.literal("Oathgate Spren"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(StormlightModModItems.BLACK_OATHGATE_SPEAR.get()));
+		refreshDimensions();
 	}
 
 	@Override
@@ -54,9 +60,7 @@ public class BlackOathgateSprenEntity extends PathfinderMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(2, new FloatGoal(this));
-		this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, WhiteOathgateSprenEntity.class, (float) 6));
+		this.goalSelector.addGoal(1, new LookAtPlayerGoal(this, Player.class, (float) 12));
 	}
 
 	@Override
@@ -125,13 +129,28 @@ public class BlackOathgateSprenEntity extends PathfinderMob {
 		return true;
 	}
 
+	@Override
+	public boolean isPushedByFluid() {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		return false;
+	}
+
+	@Override
+	public EntityDimensions getDimensions(Pose pose) {
+		return super.getDimensions(pose).scale(3f);
+	}
+
 	public static void init() {
 		SpawnPlacements.register(StormlightModModEntities.BLACK_OATHGATE_SPREN.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0);
 		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);

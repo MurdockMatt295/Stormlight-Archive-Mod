@@ -12,6 +12,7 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraft.world.inventory.MenuType;
 
 import net.mcreator.stormlightmod.world.inventory.TruthwatchersprenspawningMenu;
+import net.mcreator.stormlightmod.world.inventory.SphereLanternGUIMenu;
 import net.mcreator.stormlightmod.world.inventory.SkybreakerMenu;
 import net.mcreator.stormlightmod.world.inventory.OathGateMenu;
 import net.mcreator.stormlightmod.world.inventory.NightWatcherGUIMenu;
@@ -31,4 +32,5 @@ public class StormlightModModMenus {
 	public static final RegistryObject<MenuType<OathGateMenu>> OATH_GATE = REGISTRY.register("oath_gate", () -> IForgeMenuType.create(OathGateMenu::new));
 	public static final RegistryObject<MenuType<NightWatcherGUIMenu>> NIGHT_WATCHER_GUI = REGISTRY.register("night_watcher_gui", () -> IForgeMenuType.create(NightWatcherGUIMenu::new));
 	public static final RegistryObject<MenuType<NightWatcherBondGUIMenu>> NIGHT_WATCHER_BOND_GUI = REGISTRY.register("night_watcher_bond_gui", () -> IForgeMenuType.create(NightWatcherBondGUIMenu::new));
+	public static final RegistryObject<MenuType<SphereLanternGUIMenu>> SPHERE_LANTERN_GUI = REGISTRY.register("sphere_lantern_gui", () -> IForgeMenuType.create(SphereLanternGUIMenu::new));
 }

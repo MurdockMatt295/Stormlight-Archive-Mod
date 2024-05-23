@@ -244,6 +244,8 @@ public class StormlightModModItems {
 	public static final RegistryObject<Item> CURRY = REGISTRY.register("curry", () -> new CurryItem());
 	public static final RegistryObject<Item> UNCOOKEDCURRY = REGISTRY.register("uncookedcurry", () -> new UncookedcurryItem());
 	public static final RegistryObject<Item> NO_SLEEP_GUY_SPAWN_EGG = REGISTRY.register("no_sleep_guy_spawn_egg", () -> new ForgeSpawnEggItem(StormlightModModEntities.NO_SLEEP_GUY, -16777216, -16777216, new Item.Properties()));
+	public static final RegistryObject<Item> SPHERE_LANTERN = block(StormlightModModBlocks.SPHERE_LANTERN);
+	public static final RegistryObject<Item> SPHERE_LANTERN_INFUSED = block(StormlightModModBlocks.SPHERE_LANTERN_INFUSED);
 
 	// Start of user code block custom items
 	// End of user code block custom items

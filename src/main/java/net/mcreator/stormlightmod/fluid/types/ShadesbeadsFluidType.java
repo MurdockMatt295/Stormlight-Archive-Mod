@@ -37,12 +37,12 @@ public class ShadesbeadsFluidType extends FluidType {
 
 			@Override
 			public int getTintColor() {
-				return -16448205;
+				return -4138753;
 			}
 
 			@Override
 			public int getTintColor(FluidState state, BlockAndTintGetter world, BlockPos pos) {
-				return Minecraft.getInstance().level.getBiome(pos).value().getWaterFogColor() | 0xFF000000;
+				return Minecraft.getInstance().level.getBiome(pos).value().getFogColor() | 0xFF000000;
 			}
 		});
 	}

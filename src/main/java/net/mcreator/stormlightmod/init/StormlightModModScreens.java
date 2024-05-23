@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.stormlightmod.client.gui.TruthwatchersprenspawningScreen;
+import net.mcreator.stormlightmod.client.gui.SphereLanternGUIScreen;
 import net.mcreator.stormlightmod.client.gui.SkybreakerScreen;
 import net.mcreator.stormlightmod.client.gui.OathGateScreen;
 import net.mcreator.stormlightmod.client.gui.NightWatcherGUIScreen;
@@ -33,6 +34,7 @@ public class StormlightModModScreens {
 			MenuScreens.register(StormlightModModMenus.OATH_GATE.get(), OathGateScreen::new);
 			MenuScreens.register(StormlightModModMenus.NIGHT_WATCHER_GUI.get(), NightWatcherGUIScreen::new);
 			MenuScreens.register(StormlightModModMenus.NIGHT_WATCHER_BOND_GUI.get(), NightWatcherBondGUIScreen::new);
+			MenuScreens.register(StormlightModModMenus.SPHERE_LANTERN_GUI.get(), SphereLanternGUIScreen::new);
 		});
 	}
 }

@@ -6,7 +6,7 @@
     "bucketName": "Shadesbeads Bucket",
     "textureStill": "shadesmarbeadsdark",
     "textureFlowing": "shadesmarbeadstex1",
-    "tintType": "Water fog",
+    "tintType": "Fog",
     "canMultiply": false,
     "flowRate": 5,
     "levelDecrease": 1,

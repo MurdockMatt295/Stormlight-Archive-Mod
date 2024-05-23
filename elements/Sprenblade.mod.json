@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "toolType": "MultiTool",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
-    "texture": "shardblade1",
-    "customModelName": "Normal",
+    "texture": "shardbladescreenshot",
+    "customModelName": "mayablade:default",
     "blockingModelName": "Normal blocking",
-    "name": "Sprenblade",
+    "name": "Living Shardblade",
     "specialInformation": {
       "fixedValue": [
         "Your spren as a Shardblade"

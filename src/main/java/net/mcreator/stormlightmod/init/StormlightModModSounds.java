@@ -17,4 +17,5 @@ public class StormlightModModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, StormlightModMod.MODID);
 	public static final RegistryObject<SoundEvent> TVSTATICSOUND = REGISTRY.register("tvstaticsound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("stormlight_mod", "tvstaticsound")));
 	public static final RegistryObject<SoundEvent> PORTALMUSIC = REGISTRY.register("portalmusic", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("stormlight_mod", "portalmusic")));
+	public static final RegistryObject<SoundEvent> ACCEPTEDWORDS = REGISTRY.register("acceptedwords", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("stormlight_mod", "acceptedwords")));
 }

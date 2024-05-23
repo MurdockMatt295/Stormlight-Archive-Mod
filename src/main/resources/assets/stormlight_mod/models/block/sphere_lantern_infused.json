@@ -1,0 +1,9 @@
+{
+  "parent": "stormlight_mod:custom/spherelanterninfused",
+  "textures": {
+    "all": "stormlight_mod:block/spherelanterninfusedtexture",
+    "particle": "stormlight_mod:block/spherelanterninfusedtexture",
+    "0": "stormlight_mod:block/spherelanterninfusedtexture"
+  },
+  "render_type": "solid"
+}

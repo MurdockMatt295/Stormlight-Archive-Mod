@@ -68,9 +68,9 @@ public class StormlightModModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<BlackOathgateSprenEntity>> BLACK_OATHGATE_SPREN = register("black_oathgate_spren", EntityType.Builder.<BlackOathgateSprenEntity>of(BlackOathgateSprenEntity::new, MobCategory.MISC)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlackOathgateSprenEntity::new).fireImmune().sized(6f, 18f));
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlackOathgateSprenEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<WhiteOathgateSprenEntity>> WHITE_OATHGATE_SPREN = register("white_oathgate_spren", EntityType.Builder.<WhiteOathgateSprenEntity>of(WhiteOathgateSprenEntity::new, MobCategory.MISC)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WhiteOathgateSprenEntity::new).fireImmune().sized(6f, 18f));
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WhiteOathgateSprenEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<NoSleepGuyEntity>> NO_SLEEP_GUY = register("no_sleep_guy", EntityType.Builder.<NoSleepGuyEntity>of(NoSleepGuyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NoSleepGuyEntity::new).fireImmune().sized(0.6f, 1.8f));
 

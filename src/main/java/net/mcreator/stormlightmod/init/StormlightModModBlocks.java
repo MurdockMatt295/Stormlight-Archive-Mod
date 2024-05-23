@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.stormlightmod.block.ZirconOreBlock;
 import net.mcreator.stormlightmod.block.TopazOreBlock;
+import net.mcreator.stormlightmod.block.SphereLanternInfusedBlock;
+import net.mcreator.stormlightmod.block.SphereLanternBlock;
 import net.mcreator.stormlightmod.block.SmokestoneoreBlock;
 import net.mcreator.stormlightmod.block.ShatteredPlainRockBlock;
 import net.mcreator.stormlightmod.block.ShadesmarObsidianBlock;
@@ -44,6 +46,8 @@ public class StormlightModModBlocks {
 	public static final RegistryObject<Block> ZIRCON_ORE = REGISTRY.register("zircon_ore", () -> new ZirconOreBlock());
 	public static final RegistryObject<Block> TOPAZ_ORE = REGISTRY.register("topaz_ore", () -> new TopazOreBlock());
 	public static final RegistryObject<Block> OATH_GATE_KEY_BLOCK = REGISTRY.register("oath_gate_key_block", () -> new OathGateKeyBlockBlock());
+	public static final RegistryObject<Block> SPHERE_LANTERN = REGISTRY.register("sphere_lantern", () -> new SphereLanternBlock());
+	public static final RegistryObject<Block> SPHERE_LANTERN_INFUSED = REGISTRY.register("sphere_lantern_infused", () -> new SphereLanternInfusedBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

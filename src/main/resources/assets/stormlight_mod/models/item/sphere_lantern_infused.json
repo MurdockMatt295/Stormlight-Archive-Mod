@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "stormlight_mod:item/spherelanterninfusedscreenshot"
+  },
+  "render_type": "translucent"
+}

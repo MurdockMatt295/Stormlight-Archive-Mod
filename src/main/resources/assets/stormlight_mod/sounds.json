@@ -15,5 +15,14 @@
         "stream": false
       }
     ]
+  },
+  "acceptedwords": {
+    "subtitle": "subtitles.acceptedwords",
+    "sounds": [
+      {
+        "name": "stormlight_mod:these-words-are-accepted",
+        "stream": false
+      }
+    ]
   }
 }

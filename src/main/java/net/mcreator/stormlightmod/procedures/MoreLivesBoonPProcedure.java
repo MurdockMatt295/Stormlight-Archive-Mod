@@ -34,7 +34,7 @@ public class MoreLivesBoonPProcedure {
 		if (entity instanceof ServerPlayer _plr0 && _plr0.level() instanceof ServerLevel && _plr0.getAdvancements().getOrStartProgress(_plr0.server.getAdvancements().getAdvancement(new ResourceLocation("stormlight_mod:more_lives_boon"))).isDone()) {
 			if (!(entity instanceof LivingEntity _livEnt1 && _livEnt1.hasEffect(MobEffects.ABSORPTION))) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, (int) Double.POSITIVE_INFINITY, 1, false, false));
+					_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, (int) Double.POSITIVE_INFINITY, (int) 2.5, false, false));
 			}
 		}
 	}
